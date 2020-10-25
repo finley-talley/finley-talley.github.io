@@ -5,6 +5,8 @@
   font-weight: normal;
 }
 
+/*---------------- main styles --------------------*/
+
 body {
   margin: 0;
   padding: 0;
@@ -105,7 +107,7 @@ h1 {
 
 img {
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
 }
 
 /*---------------- confess page --------------------*/
@@ -219,6 +221,18 @@ img {
   font-family:  'B612', sans-serif;
 }
 
+/*---------------- secret page --------------------*/
+
+.scrollbar {
+  overflow-y: auto;
+  height: 17rem;
+}
+
+#randomText {
+  font-family:  'B612', sans-serif;
+}
+
+/*---------------- mobile settings --------------------*/
 
 @media only screen and (max-width: 992px) {
   h1 {
