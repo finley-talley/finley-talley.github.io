@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Nineteen Ninety Seven;
+  src: url('../font/NineteenNinetySeven-11XB.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Nineteen Ninety Seven;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+}
+
+.header {
+  padding: 8px;
+  background: #DCDCDC;
+  border-bottom: black solid 3px;
+}
+
+.secret-body {
+
+}
+
+.secret-left {
+  width: 60%;
+  float: left;
+  background: #FEDC58;
+}
+
+.secret-right {
+  width: 40%;
+  float: right;
+}
+
+#project-title {
+  font-family: Nineteen Ninety Seven, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  padding-left: 25px;
+}
+
+#project-desc {
+  font-family: 'B612', sans-serif;
+  font-size: 18px;
+  text-align: right;
+  width: 50%;
+  float: right;
+  padding: 0px 50px 10px 0px;
+  line-height: 200%;
+}
+
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .header {
+    border-bottom: black solid 10px;
+  }
+
+  .secret-left, .secret-right {
+    width: 100%;
+  }
+}
