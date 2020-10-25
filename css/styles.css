@@ -28,6 +28,10 @@ h1 {
 .secret-left {
   width: 60%;
   float: left;
+}
+
+.yellow-bg {
+  float: left;
   background: #FEDC58;
 }
 
@@ -54,6 +58,7 @@ h1 {
   float: right;
 }
 
+
 .category {
   margin: 30px 0px 30px 30px;
   padding: 20px;
@@ -61,6 +66,34 @@ h1 {
   font-family: Nineteen Ninety Seven, sans-serif;
   font-size: 12px;
 }
+
+.cat-button a, .cat-button a:link, .cat-button a:visited {
+  background: #DBD9FE;
+  border: 3px solid #030062;
+  box-sizing: border-box;
+  font-family: Nineteen Ninety Seven;
+  font-size: 20px;
+  color: #000000;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 75px 0px;
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.ag {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.rs, .mh {
+  display: inline-block;
+  margin: 50px;
+}
+
 
 @media only screen and (max-width: 992px) {
   h1 {
@@ -88,5 +121,14 @@ h1 {
     padding: 40px;
   }
 
+  .category {
+    font-size: 36px;
+    margin: 50px 0px 100px 50px;
+    padding: 40px
+  }
 
+  .rs a, .mh a {
+    margin: 0 auto;
+    display: block;
+  }
 }
