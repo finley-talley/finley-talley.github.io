@@ -94,6 +94,131 @@ h1 {
   margin: 50px;
 }
 
+.footer {
+  background-color: FEDC58;
+  text-align: center;
+  /* width: 100%; */
+  padding: 10px;
+  margin: 10px;
+  font-family: 'B612', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*---------------- confess page --------------------*/
+
+.confess-page {
+  background: #FFFCDD;
+  padding: 20px;
+
+}
+
+.outer-gray-box {
+  /*position: relative*/
+  width: 50rem;
+  height: 27rem;
+  /*left: 220px;
+  top: 172px;*/
+
+  background: #E0E0E0;
+
+  border: 2px solid #333333;
+  box-shadow: -10px 10px 10px 8px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.accent {
+  height: 1.5rem;
+  margin: 7px;
+  padding: 2px 0px 2px 5px;
+  background: linear-gradient(90deg, #030062 14.58%, rgba(101, 60, 168, 0.4) 77.08%);
+  border-radius: 2px;
+  font-family: Nineteen Ninety Seven;
+  color: #FFFFFF;
+}
+
+.confidant-box {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  /* Box Inner */
+
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.6);
+  font-family: 'B612', sans-serif;
+  margin: 7px;
+  padding: 8px;
+  width: 75%;
+  height: 30%;
+  float: right;
+}
+
+.chat-name {
+  color: #1F85DE;
+  font-weight: bold;
+}
+
+.confess-box {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.6);
+  font-family: 'B612', sans-serif;
+  margin: 7px;
+  padding: 8px;
+  width: 75%;
+  height: 30%;
+  float: right;
+}
+
+.blue-box {
+  background: #DBD9FE;
+  box-shadow: inset 0px 0px 10px #003060;
+  border-radius: 4px;
+  float: left;
+  height: 22rem;
+  width: 19%;
+  margin: 7px;
+  padding: 8px 8px 8px 10px;
+
+}
+
+.cancel-button {
+  background: #E0E0E0;
+  box-shadow: -2px 2px 4px 2px rgba(0, 0, 0, 0.6), inset 2px -2px 2px 4px rgba(255, 255, 255, 0.3), inset -2px 2px 2px 3px #FFFFFF;
+  border-radius: 3px;
+  clear: right;
+  float: right;
+  font-family: B612 Mono;
+  font-weight: bold;
+  font-size: 1.5em;
+  /* identical to box height */
+  text-align: center;
+  color: #030062;
+  padding: 15px 25px 15px 25px;
+  margin: 15px;
+  font-family:  'B612', sans-serif;
+}
+
+.submit-button {
+  background: #030062;
+  box-shadow: -2px 2px 4px 2px rgba(0, 0, 0, 0.6), inset 2px -2px 2px 4px rgba(255, 255, 255, 0.3), inset -2px 2px 2px 3px #FFFFFF;
+  border-radius: 3px;
+  float: right;
+  font-family: B612 Mono;
+  font-weight: bold;
+  font-size: 1.5em;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+  padding: 15px 25px 15px 25px;
+  margin: 15px;
+  font-family:  'B612', sans-serif;
+}
+
 
 @media only screen and (max-width: 992px) {
   h1 {
